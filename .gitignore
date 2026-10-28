@@ -1,0 +1,45 @@
+
+# AWS credentials and configuration
+.aws/
+.aws-credentials
+credentials
+config
+
+# SSH private keys
+*.pem
+*.ppk
+id_rsa
+id_ed25519
+*.key
+
+# Terraform files (if you add Terraform later)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+terra-key-ec2
+terra-key-ec2.pub
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
