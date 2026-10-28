@@ -6,11 +6,8 @@ credentials
 config
 
 # SSH private keys
-*.pem
-*.ppk
-id_rsa
-id_ed25519
-*.key
+terra-key-ec2
+terra-key-ec2.pub
 
 # Terraform files (if you add Terraform later)
 .terraform/
@@ -24,8 +21,6 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 .terraform.lock.hcl
-terra-key-ec2
-terra-key-ec2.pub
 
 # Environment variables and secrets
 .env
